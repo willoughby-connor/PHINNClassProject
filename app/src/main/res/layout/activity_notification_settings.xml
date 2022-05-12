@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationSettingsActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button1Text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/button2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button2Text"
+        app:layout_constraintLeft_toRightOf="@id/button1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/button3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button3Text"
+        app:layout_constraintLeft_toRightOf="@id/button2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button4Text"
+        android:clickable="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Spinner
+        android:id="@+id/menuSpinner"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/button4"/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="@string/switch1Text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        />
+
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="@string/switch2Text"
+        app:layout_constraintTop_toBottomOf="@+id/switch1"
+        app:layout_constraintLeft_toLeftOf="@+id/switch1"
+        android:layout_marginTop="20dp"/>
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="@string/switch3Text"
+        app:layout_constraintTop_toBottomOf="@+id/switch2"
+        app:layout_constraintLeft_toLeftOf="@+id/switch1"
+        android:layout_marginTop="20dp"/>
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="@string/switch4Text"
+        app:layout_constraintTop_toBottomOf="@+id/switch3"
+        app:layout_constraintLeft_toLeftOf="@+id/switch1"
+        android:layout_marginTop="20dp"/>
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="@string/switch5Text"
+        app:layout_constraintTop_toBottomOf="@+id/switch4"
+        app:layout_constraintLeft_toLeftOf="@+id/switch1"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/saveNotificationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/switch5"
+        android:layout_marginTop="25dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

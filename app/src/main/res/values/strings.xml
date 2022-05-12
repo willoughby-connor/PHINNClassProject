@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Personal Health Improvement Neural Network</string>
+    <string name="button4Text">Menu</string>
+    <string name="button3Text">Mood</string>
+    <string name="button2Text">Goals</string>
+    <string name="button1Text">Home</string>
+    <string name="switch5Text">Reminders to Talk to Friends</string>
+    <string name="switch4Text">Reminders to Record Mood</string>
+    <string name="switch3Text">Reminders to Take Breaks</string>
+    <string name="switch2Text">Reminders to Exercise</string>
+    <string name="switch1Text">Friendly Notifications</string>
+    <string name="profileImageContentDesc">Profile Image</string>
+    <string name="surveyButtonText">Record Your Mood</string>
+    <string name="moveGoalText">How many times a day do you want to try and move around?</string>
+    <string name="breakGoalText">How often do you want to try and take breaks?</string>
+    <string name="moodGoalText">How often do you want to try and record your mood?</string>
+    <string name="nationalWebLabel">National Mental Health Services</string>
+    <string name="localWebLabel">Search for Local Mental Health Resources</string>
+    <string name="notificationSettingsChangeText">Change Notification Settings</string>
+    <string name="testNotificationText">Send Test Notification</string>
+    <string-array name="breaksGoalArray">
+        <item>Once a day</item>
+        <item>Twice a day</item>
+        <item>Every six hours</item>
+        <item>Every three hours</item>
+        <item>Every hour</item>
+    </string-array>
+    <string-array name="recordMoodGoalArray">
+        <item>Once a week</item>
+        <item>Twice a week</item>
+        <item>Every other day</item>
+        <item>Every day</item>
+        <item>Twice a day</item>
+    </string-array>
+    <string-array name="moodArray">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Angry</item>
+        <item>Tired</item>
+        <item>Excited</item>
+        <item>Nervous</item>
+        <item>Jealous</item>
+    </string-array>
+    <string-array name="menuOptions">
+        <item>Close Menu</item>
+        <item>Profile</item>
+        <item>Resources</item>
+        <item>Close Menu</item>
+    </string-array>
+</resources>
